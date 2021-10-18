@@ -20,7 +20,7 @@ set noshowmode
 set cursorline
 "set colorcolumn=80
 set signcolumn=yes
-set termguicolors
+"set termguicolors
 set completeopt=menuone,noinsert,noselect
 
 " use <tab> for trigger completion and navigate to the next complete item
