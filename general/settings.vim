@@ -17,11 +17,8 @@ set undofile
 set incsearch
 set scrolloff=8
 set noshowmode
-set cursorline
-"set colorcolumn=80
 set signcolumn=yes
-"set termguicolors
-set completeopt=menuone,noinsert,noselect
+set termguicolors
 
 " use <tab> for trigger completion and navigate to the next complete item
 function! s:check_back_space() abort
