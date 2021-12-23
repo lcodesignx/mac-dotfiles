@@ -20,11 +20,5 @@ set noshowmode
 set signcolumn=yes
 set termguicolors
 
-" use <tab> for trigger completion and navigate to the next complete item
-function! s:check_back_space() abort
-  let col = col('.') - 1
-  return !col || getline('.')[col - 1]  =~ '\s'
-endfunction
-
 " syntax highlighting for vagrant files
 autocmd BufNewFile,BufRead Vagrantfile set filetype=ruby
